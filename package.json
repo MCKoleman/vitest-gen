@@ -23,7 +23,7 @@
     "dist"
   ],
   "scripts": {
-    "gen": "tsx src/index.ts",
+    "vitest-gen": "tsx src/index.ts",
     "build": "tsup",
     "test": "vitest"
   },
