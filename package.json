@@ -1,0 +1,57 @@
+{
+  "name": "vitest-gen",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Package for generating NextJS template files with corresponding Vitest test files",
+  "author": "Kristian Kolehmainen <kristian@koleman.dev>",
+  "license": "MIT",
+  "homepage": "https://github.com/MCKoleman/vitest-gen#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCKoleman/vitest-gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MCKoleman/vitest-gen/issues"
+  },
+  "engines": {
+    "node": "^18.0.0  || >=20.0.0"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "gen": "tsx src/index.ts",
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "keywords": [
+    "NextJS",
+    "vitest",
+    "generate",
+    "template",
+    "test"
+  ],
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.0.1",
+    "@types/node": "^22.7.1",
+    "@types/react": "^18.3.9",
+    "@vitejs/plugin-react": "^4.3.1",
+    "jsdom": "^25.0.1",
+    "next": "^14.2.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.1"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
