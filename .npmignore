@@ -1,0 +1,8 @@
+/node_modules
+/src
+/test
+
+package-lock.json
+tsup.config.ts
+next.config.ts
+vitest.config.ts

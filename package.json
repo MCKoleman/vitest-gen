@@ -13,6 +13,13 @@
   "bugs": {
     "url": "https://github.com/MCKoleman/vitest-gen/issues"
   },
+  "keywords": [
+    "NextJS",
+    "vitest",
+    "generate",
+    "template",
+    "test"
+  ],
   "engines": {
     "node": "^18.0.0  || >=20.0.0"
   },
@@ -22,18 +29,14 @@
   "files": [
     "dist"
   ],
+  "bin": {
+    "vitest-gen": "./dist/index.js"
+  },
   "scripts": {
     "vitest-gen": "tsx src/index.ts",
     "build": "tsup",
     "test": "vitest"
   },
-  "keywords": [
-    "NextJS",
-    "vitest",
-    "generate",
-    "template",
-    "test"
-  ],
   "devDependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.0.1",
